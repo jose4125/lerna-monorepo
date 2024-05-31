@@ -17,6 +17,8 @@
     "typescript": "^5.4.5"
   },
   "scripts": {
-    "prepare": "husky"
+    "prepare": "husky",
+    "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0",
+    "version": "conventional-changelog -i CHANGELOG.md -s && git add CHANGELOG.md"
   }
 }

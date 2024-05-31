@@ -1,16 +1,14 @@
 {
   "name": "app-products",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint . --fix",
-    "preview": "vite preview",
-    "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0",
-    "version": "conventional-changelog -i CHANGELOG.md -s && git add CHANGELOG.md"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
